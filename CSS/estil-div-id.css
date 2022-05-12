@@ -1,0 +1,16 @@
+#green {
+    color: green;
+    }
+    div {
+        color: red;
+}
+
+.green-and-bold {
+    font-weight: bold;
+    color: green;
+    background-color: antiquewhite;
+
+    }
+    div {
+    color: red;
+    }
