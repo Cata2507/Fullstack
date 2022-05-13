@@ -1,0 +1,13 @@
+h2 +p{
+    color: red;
+}
+h2 ~ p{
+    color: orange;
+}
+
+p{color: blue !important;
+
+}
+div p{
+    color: magenta;
+}
