@@ -1,0 +1,126 @@
+ #flex-container {
+    display : flex;
+}
+
+.flex-container-directions {
+    display: flex;
+    flex-direction: column;
+    background-color: red;
+    /* align-items: center; */
+}
+
+.flex-container-directions > div {
+    background-color: blue;
+    width: 50%;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+}
+
+.flex-container-wrap {
+    display: flex;
+    flex-wrap: wrap-reverse;
+    background-color: blue;
+}
+
+.flex-container-wrap > div {
+    background-color: red;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+}
+
+.container{
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.flex-container > div {
+    background-color: red;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+}
+
+.flex-container-justify {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(255, 0, 170);
+}
+.flex-container-justify > div {
+    background-color: rgb(0, 47, 255);
+    width: 50px;
+    margin: 50px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+}
+
+.flex-container-aligh {
+display: flex;
+height: 200px;
+align-items: stretch;
+background-color: blue;
+}
+
+.flex-container-aligh > div {
+background-color: red;
+width: 100px;
+margin: 10px; 
+text-align: center;
+line-height: 75px;
+font-size: 30px;
+}
+
+
+.flex-container-ejercicio-aling {
+    display: flex;
+    height: 600px;
+    flex-wrap: wrap;
+    align-content:space-around;
+    background-color: blue;
+}
+
+.flex-container-ejercicio-aling > div {
+    background-color: red;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+}
+
+.flex-container-flex-shrink{
+    display: flex;
+    align-items: stretch;
+    background-color: red;
+}
+.flex-container-flex-shrink > div {
+    background-color: blue;
+    color: white;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+}
+
+.propiedad-aligh-self {
+    display: flex;
+    height: 200px;
+    background-color: red;
+    }
+.propiedad-aligh-self> div {
+    background-color: blue;
+    color: white;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+}

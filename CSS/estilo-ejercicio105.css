@@ -8,3 +8,11 @@
 h2{
     text-align: left;
 }
+
+p.indent ´{
+    text-indent: 50px;
+}
+
+p.separaracionlinea{
+    line-height: 1.8;
+}
