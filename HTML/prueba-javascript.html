@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pruebas Javascript</title>
+
+    <script src="../JS/primer-javascript.js"></script>
+
+
+    <!-- importación de la librería jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js">
+    </script>
+
+    <script>
+        alert ("Hello World!")
+    </script>
+</head>
+<body>
+    <h1>Pruebas Javascript (frontend)</h1>
+    <p id="demo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure magnam tenetur in delectus modi aliquam mollitia expedita nisi molestias quae voluptas dolorem deleniti rerum, incidunt accusamus cupiditate provident necessitatibus voluptate.</p>
+
+    <button type="submit" onclick="cambia()">CAMBIA</button>
+    
+    <button type="submit" onclick="incial()">INCIAL</button>
+    
+    <button type="submit" onclick=" saludar()">Alejandro</button>
+
+
+    <script>
+        function cambia() {
+        document.getElementById("demo").innerHTML = "Párrafo cambiado";
+        }
+    </script>
+
+    <script>
+        function incial() {
+        document.getElementById("demo").innerHTML = "Vuelve";
+        }
+    </script>
+
+
+    <script>
+    
+        
+        document.write("Hello world! Texto en el documento"); // ESCIBE EN EL PROPIO DOCUMENTO HTML
+        console.log("Hello world! Texto en la consola") // PODEMOS REVISAR ESTE TEXGO EN LA F12 DE LA CONSOLA
+    </script>
+
+    <script>
+        document.write("Hello world!")
+    </script>
+
+    <!-- ahora puede utilizarse la librería jQuery -->
+    <script>
+        $(document).ready(function(){
+        console.log('Librería jQuery cargada');
+        });
+    </script>
+
+    <script>
+        //hola
+        console.log("hola");
+        // en un lugar de la mancha
+        console.log('en', 'un', 'lugar', 'de', 'la', 'Mancha');
+        console.info('Info');
+        console.warn('Warning');
+        console.error('Error');
+        document.write("Texto2");
+        alert("Hello world!");
+    </script>
+
+    <p id="demo">Hola</p>
+    <script>
+        document.getElementById("demo").innerHTML = "hola como sta";
+    </script>
+
+    
+  <script>
+      // correcto
+        const nombre = "Alejandro";
+        function saludar() {
+        document.write(nombre);
+        }
+  </script>
+
+  <script>
+     const nombre3 = prompt("Escriba su nombre", "Escriba aquí");
+     console.log(nombre);
+     const conf = confirm("Sí o no");
+        // true o false aceptar o cancelar respectivamente
+    console.log(conf);
+    // 1000000000000000000
+    console.log(9999999999999999999);
+    // 0.6
+    console.log(0.5+0.1);
+    // 0.30000000000000004
+    console.log(0.1+0.2);
+    // 0.3
+    console.log(Math.round((0.1+0.2)*100)/100);
+    console.log(parseFloat((0.1+0.2).toFixed(1)));
+    // -Infinity
+    console.log(Math.max());
+    // Infinity
+    console.log(Math.min());
+    // ""
+    console.log([]+[]);
+    // "aa"
+    console.log(["a"]+["a"]);
+    // "[object Object]"
+    console.log([]+{});
+    // 0
+    console.log({}+[]);
+    // true
+    console.log(true+true+true===3);
+    // true
+    console.log(true==1);
+    // false
+    console.log(true===1);
+    // 9
+    console.log((!+[]+[]+![]).length);
+    // "91"
+    console.log(9+"1");
+    // 90
+    console.log(91-"1");
+    // true
+    console.log([] == 0);
+
+  </script>
+</body>
+</html>
